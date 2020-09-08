@@ -1,0 +1,26 @@
+{
+  "name": "cucumber-js",
+  "version": "1.0.0",
+  "description": "jira x-ray cucumber selenium test",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [
+    "jira",
+    "x-ray",
+    "cucumber",
+    "selenium",
+    "test"
+  ],
+  "author": "stefan.vikoler@nor.gmbh",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^85.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
